@@ -1,0 +1,29 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+<div class="row">
+    <div class="column left" style="background-color:#545454;">
+        <div class="title">
+            1C1C1
+        </div><br>
+        <div class="options">
+            <div class="buttons">
+                <button class="btn" (click)="toDashboard()">Dashboard</button><br><br>
+                <button class="btn">E - Services</button><br><br>
+                <button class="btn">Aadhar Link</button><br><br>
+            </div>
+            <hr>
+            <div class="buttons">
+                <button class="btn">Account Help</button><br><br>
+                <button class="btn">Privacy Policy</button><br><br>
+                <button class="btn">Logout</button>
+            </div>
+        </div>
+    </div>
+    <div class="column right" style="background-color:white;">
+        <header>
+            <a href="#">customer support</a>&nbsp;<img src="assets/img/bg.jpg" alt="logo">
+        </header>
+        <!--<router-outlet name="dashboard-route"></router-outlet>-->
+        <app-dashboard></app-dashboard>
+    </div>
+    
+  </div>

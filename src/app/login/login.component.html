@@ -1,0 +1,27 @@
+<div class="split left">
+  
+ <img src="../../assets/img/login-bg.jpeg">
+</div>
+
+<form (submit)="onsubmit($event)">
+<div class="split right">
+  <div class="centered">
+    <h1>LOGIN</h1>
+      <hr>
+      
+      <label for="username"><b>USERNAME</b></label>
+      <input type="text" placeholder="Enter Mail" name="username" required>
+
+      <label for="password"><b>PASSWORD</b></label>
+      <input type="text" placeholder="Enter Password" name="password" required>
+
+ <button class="button" routerLink="../view-home">LOGIN</button>
+
+<p>Not a customer ?<a href="#"style="color:black" routerLink="../sign-up"><b>SIGN UP</b></a>.</p>
+
+ </div>
+ 
+</div>
+</form>
+
+

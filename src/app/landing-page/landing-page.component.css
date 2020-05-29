@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("../../assets/img/homepage-bg.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #aca18c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row > div {
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+.buttons-local {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  border: 0;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 35px;
+  color: white;
+  background-color: #545454;
+}
+
+.buttons-local:hover {
+  background-color: #aca18c;
+}
+
+.buttons-local:focus {
+  border: none;
+  outline: none;
+}
